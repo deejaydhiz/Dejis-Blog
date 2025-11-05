@@ -37,7 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-/**  */
+/** To update the URL for your WordPress */
 define( 'WP_HOME', 'http://yoursiteurl.com' );
 
 define( 'WP_SITEURL', 'http://yoursiteurl.com' );
