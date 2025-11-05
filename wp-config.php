@@ -20,22 +20,27 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'my-wordpress-db' );
+define( 'DB_NAME', 'database_bame_here' );
 
 /** Database username */
-define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'username_here' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'bannix101#' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Database hostname */
-define( 'DB_HOST', 'wordpressinstance.cwvy4g0e2bay.us-east-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+/**  */
+define( 'WP_HOME', 'http://yoursiteurl.com' );
+
+define( 'WP_SITEURL', 'http://yoursiteurl.com' );
 
 /**#@+
  * Authentication unique keys and salts.
